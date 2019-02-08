@@ -196,8 +196,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/msm8998-common/proprietary/lib64/libOmxMux.so:system/lib64/libOmxMux.so \
     vendor/oneplus/msm8998-common/proprietary/lib64/libQTEEConnector_system.so:system/lib64/libQTEEConnector_system.so \
     vendor/oneplus/msm8998-common/proprietary/lib64/libadsprpc_system.so:system/lib64/libadsprpc_system.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaptXHD_encoder.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaptX_encoder.so \
+    vendor/oneplus/msm8998-common/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
+    vendor/oneplus/msm8998-common/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/oneplus/msm8998-common/proprietary/lib64/libcdsprpc_system.so:system/lib64/libcdsprpc_system.so \
     vendor/oneplus/msm8998-common/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/oneplus/msm8998-common/proprietary/lib64/libdpmctmgr.so:system/lib64/libdpmctmgr.so \
@@ -226,6 +226,10 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/msm8998-common/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
     vendor/oneplus/msm8998-common/proprietary/lib64/vendor.qti.esepowermanager@1.0.so:system/lib64/vendor.qti.esepowermanager@1.0.so \
     vendor/oneplus/msm8998-common/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
+    vendor/oneplus/msm8998-common/proprietary/lib64/vendor.qti.gnss@1.1.so:system/lib64/vendor.qti.gnss@1.1.so \
+    vendor/oneplus/msm8998-common/proprietary/lib64/vendor.qti.gnss@1.2.so:system/lib64/vendor.qti.gnss@1.2.so \
+    vendor/oneplus/msm8998-common/proprietary/lib64/vendor.qti.gnss@2.0.so:system/lib64/vendor.qti.gnss@2.0.so \
+    vendor/oneplus/msm8998-common/proprietary/lib64/vendor.qti.gnss@2.1.so:system/lib64/vendor.qti.gnss@2.1.so \
     vendor/oneplus/msm8998-common/proprietary/lib64/vendor.qti.hardware.qteeconnector@1.0.so:system/lib64/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/oneplus/msm8998-common/proprietary/lib64/vendor.qti.hardware.tui_comm@1.0.so:system/lib64/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/oneplus/msm8998-common/proprietary/lib64/vendor.qti.hardware.vpp@1.1.so:system/lib64/vendor.qti.hardware.vpp@1.1.so \
